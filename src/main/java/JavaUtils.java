@@ -1,4 +1,4 @@
-package main.java;
+package com.KP.java.util;
 
 import java.io.IOException;
 import java.nio.file.Files;

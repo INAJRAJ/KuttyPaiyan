@@ -1,10 +1,11 @@
 package com.KP.Actor
 
-import scala.io.StdIn._
-import com.KP.UI._
+import com.KP.UI.KPWindow
+import com.KP.Utils.FileUtils
 
 
-import com.KP.Utils._
+import com.KP.UI
+
 import akka.actor.Actor
 import akka.actor.ActorSystem
 import akka.actor.Props
