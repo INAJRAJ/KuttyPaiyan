@@ -1,0 +1,21 @@
+1. What we have done now
+
+Java chat window which will interact with user. Currently handling Hi, Hello and Bye words only
+
+Working on the Action Context : each Action (like find file or find folder) will have an Action Code
+
+ActionCodes could be like this : first two letters action (we are starting with DA,DB just saving a,b,c series for later use)
+
+DA - find something (search, get me etc..)
+DB - move
+DC - copy
+
+The last char of the Action Code is what is the object the action is acted on 
+
+A - file
+B - folder
+
+so for finding a file the action code will be DAA (DA is find and A is file) for copy folder the action code will be DCB
+
+Each Action will have an ActionContext - For each Action ActionContext contents will differ for example lets say for DAA which
+is to find a file will have some properties like this in the Action Context - filename, where to begin, recursive search etc
