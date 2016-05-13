@@ -19,6 +19,7 @@ object InputGateway {
               val x = ln.toLowerCase() match {
               case "hi" => "Hi"
               case "hello" => "Hello"
+              case "bye" => "bye"
               case _ => "Don't understand what you are saying!"
          }
          println(x)
