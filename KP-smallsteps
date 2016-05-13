@@ -16,3 +16,6 @@ A - file
 B - folder
 
 so for finding a file the action code will be DAA (DA is find and A is file) for copy folder the action code will be DCB
+
+Each Action will have an ActionContext - For each Action ActionContext contents will differ for example lets say for DAA which
+is to find a file will have some properties like this in the Action Context - filename, where to begin, recursive search etc
