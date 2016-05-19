@@ -20,7 +20,7 @@ so for finding a file the action code will be DAA (DA is find and A is file) for
 Each Action will have an ActionContext - For each Action ActionContext contents will differ for example lets say for DAA which
 is to find a file will have some properties like this in the Action Context - filename, where to begin, recursive search etc
 
-! Need to create a set of properties for each Action
+! Need to create a set of properties for each Action (ActionContextProperties.txt)
 
 There will be three lists as of now
 1. all The action codes with the possible words --> map(string , list<string>) --> map <word , actioncode>
