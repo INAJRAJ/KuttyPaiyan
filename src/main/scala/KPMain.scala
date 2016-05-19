@@ -1,18 +1,12 @@
-package com.KP.Actor
+package com.KP.main
 
-import com.KP.UI.KPWindow
+import com.KP.UI._
+
 import com.KP.Utils.FileUtils
-
-
-import com.KP.UI
-
-import akka.actor.Actor
-import akka.actor.ActorSystem
-import akka.actor.Props
 
 object KPMain {
 
-  var mapActionSettings = scala.collection.mutable.Map[String, List[String]]()
+  var mapActionSettings = scala.collection.mutable.Map[String, String]()
 
   def main(args: Array[String])
   {
@@ -21,7 +15,7 @@ object KPMain {
 
     println(mapActionSettings)
 
-    new KPWindow().setVisible(true)
+    new  KPWindow().setVisible(true)
 
   }
 

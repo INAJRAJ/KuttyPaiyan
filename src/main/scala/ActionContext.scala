@@ -1,5 +1,7 @@
 package com.KP.Action
 
+import com.KP.main.KPMain
+
 object ActionContext {
   //to store the current action context and any values associated with it
   var currentContext:String = null;
@@ -13,6 +15,7 @@ object ActionContext {
   
   def checkforAction(x:String) = {
     //check for case find/search/look
+
     var actionCode:String = "00"
     if (x.contains("find") || x.contains("search") || x.contains("look"))
         {

@@ -1,0 +1,4 @@
+This is a list of objects where the action will be done on.. for example DA is find action A is file so the action code is for finding a file is DAA
+
+A : file
+B : folder
